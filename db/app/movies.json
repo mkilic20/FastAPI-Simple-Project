@@ -1,0 +1,12 @@
+[
+    {"id": 1, "name": "Oppenheimer", "release_year": 2010},
+    {"id": 2, "name": "Barbie", "release_year": 2011},
+    {"id": 3, "name": "Einstein", "release_year": 2012},
+    {"id": 4, "name": "Feynman", "release_year": 2013},
+    {"id": 5, "name": "Newton", "release_year": 2014},
+    {"id": 6, "name": "Galileo", "release_year": 2015},
+    {"id": 7, "name": "Curie", "release_year": 2016},
+    {"id": 8, "name": "Hawking", "release_year": 2017},
+    {"id": 9, "name": "Tesla", "release_year": 2018},
+    {"id": 10, "name": "Pascal", "release_year": 2019}
+]
