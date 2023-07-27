@@ -31,7 +31,6 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and push db
-        id: docker_build1
         uses: docker/build-push-action@v2
         with:
           context: ./db
@@ -40,7 +39,6 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/db:latest
 
       - name: Build and push db-service
-        id: docker_build2
         uses: docker/build-push-action@v2
         with:
           context: ./db-service
@@ -49,7 +47,6 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/db-service:latest
 
       - name: Build and push client
-          id: docker_build3
           uses: docker/build-push-action@v2
           with:
             context: ./client
