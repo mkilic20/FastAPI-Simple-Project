@@ -9,7 +9,7 @@ app = FastAPI()
 
 class ModelName(str, Enum):
     afs = "afs"
-    har = "har"
+    har = "har1"
 
 
 class Item(BaseModel):
