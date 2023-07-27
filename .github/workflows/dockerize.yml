@@ -46,7 +46,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: user/app:${{ github.event.inputs.version || env.VERSION }}
+        tags: afsharbeyy/task:${{ github.event.inputs.version || env.VERSION }}
         cache-from: type=local,src=/tmp/.buildx-cache
         cache-to: type=local,dest=/tmp/.buildx-cache
 
